@@ -23,16 +23,16 @@ class BedrockCli < Formula
       #                       "--disable-silent-rules",
       #                       "--prefix=#{prefix}"
       # system "cmake", ".", *std_cmake_args
-      yarn install
-      yarn build
+      system "yarn", "install"
+      system "yarn", "build"
   
       if OS.mac?
         mv "./dist/bedrock-macos", "./dist/bedrock"
         bin.install "./dist/bedrock"
-      elseif OS.linux?
+      elsif OS.linux?
         mv "./dist/bedrock-linux", "./dist/bedrock"
         bin.install "./dist/bedrock"
-      end
+       end
     end
   
     test do
