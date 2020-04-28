@@ -26,8 +26,7 @@ class BedrockCli < Formula
     test do
       # Run the test with `brew test bedrock-cli`.
       system "#{bin}/bedrock", "project", "init"
-      assert File.file? "bedrock.yaml"
-      assert File.file? "spk.log"
+      assert File.file?("bedrock.yaml")
     end
   end
   
