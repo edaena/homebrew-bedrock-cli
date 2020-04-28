@@ -7,7 +7,7 @@ $ brew tap edaena/core
 ## Install Bedrock CLI
 Bedrock [Hombrew](https://brew.sh/) tap for the [bedrock-cli](https://github.com/microsoft/bedrock-cli)
 
-Run:
+To install:
 ```
 $ brew install edaena/core/bedrock-cli
 ```
@@ -26,7 +26,7 @@ $ bedrock
 ## Install Fabrikate
 [Fabrikate](https://github.com/microsoft/fabrikate) tap.
 
-Run:
+To install:
 ```
 $ brew install edaena/core/fabrikate
 ```
