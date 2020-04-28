@@ -29,4 +29,3 @@ class BedrockCli < Formula
       assert File.file?("bedrock.yaml")
     end
   end
-  
