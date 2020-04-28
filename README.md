@@ -13,7 +13,7 @@ $ brew test bedrock-cli
 ```
 This verifies functionality by running the `bedrock project init` command.
 
-After installing, run the cli:
+To run:
 ```
 $ bedrock --help
 ```
