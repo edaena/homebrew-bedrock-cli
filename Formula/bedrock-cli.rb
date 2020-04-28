@@ -21,8 +21,9 @@ class BedrockCli < Formula
       elsif OS.linux?
         mv "./dist/bedrock-linux", "./dist/bedrock"
         bin.install "./dist/bedrock"
+      end
     end
-  
+
     test do
       # Run the test with `brew test bedrock-cli`.
       system "#{bin}/bedrock", "project", "init"
