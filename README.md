@@ -11,7 +11,7 @@ To test:
 ```
 $ brew test bedrock-cli
 ```
-This simple test consists of verifying functionality from the `bedrock project init` command.
+This verifies functionality by running the `bedrock project init` command.
 
 After installing, run the cli:
 ```
