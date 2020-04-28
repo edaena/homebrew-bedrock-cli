@@ -4,10 +4,10 @@ Tap to the formula repository:
 $ brew tap edaena/core
 ```
 
-## Bedrock CLI Tap
+## Install Bedrock CLI
 Bedrock [Hombrew](https://brew.sh/) tap for the [bedrock-cli](https://github.com/microsoft/bedrock-cli)
 
-To install:
+Run:
 ```
 $ brew install edaena/core/bedrock-cli
 ```
@@ -23,10 +23,10 @@ To run:
 $ bedrock
 ```
 
-## Fabrikate Tap
+## Install Fabrikate
 [Fabrikate](https://github.com/microsoft/fabrikate) tap.
 
-To install:
+Run:
 ```
 $ brew install edaena/core/fabrikate
 ```
