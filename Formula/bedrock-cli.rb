@@ -10,6 +10,7 @@ class BedrockCli < Formula
     depends_on "helm" => "2.16.3"
     depends_on "azure-cli"
     depends_on "kubectl"
+    depends_on "edaena/core/fabrikate"
   
     def install
       system "yarn", "install"

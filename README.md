@@ -1,21 +1,44 @@
 # Homebrew Taps
+Tap to the formula repository:
+```
+$ brew tap edaena/core
+```
 
-## Bedrock
+## Bedrock CLI Tap
 Bedrock [Hombrew](https://brew.sh/) tap for the [bedrock-cli](https://github.com/microsoft/bedrock-cli)
 
 To install:
 ```
-$ brew tap edaena/homebrew-core
-$ brew install edaena/homebrew-core/bedrock-cli
+$ brew install edaena/core/bedrock-cli
 ```
 
 To test:
 ```
-$ brew test bedrock-cli
+$ brew test edaena/core/bedrock-cli
 ```
 This verifies functionality by running the `bedrock project init` command.
 
 To run:
 ```
-$ bedrock --help
+$ bedrock
+```
+
+## Fabrikate Tap
+[Fabrikate](https://github.com/microsoft/fabrikate) tap.
+
+To install:
+```
+$ brew install edaena/core/fabrikate
+```
+
+To test:
+```
+$ brew test edaena/core/fabrikate
+```
+This verifies functionality by running the `fab find prometheus` command.
+
+
+To run:
+```
+$ fab
 ```
