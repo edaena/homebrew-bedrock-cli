@@ -7,6 +7,12 @@ $ brew tap edaena/bedrock-cli
 $ brew install edaena/bedrock-cli
 ```
 
+To test:
+```
+$ brew test bedrock-cli
+```
+This simple test consists of verifying functionality from the `bedrock project init` command.
+
 After installing, run the cli:
 ```
 $ bedrock --help
