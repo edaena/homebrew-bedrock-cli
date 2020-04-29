@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Fabrikate < Formula
     desc "Making GitOps with Kubernetes easier one component at a time"
     homepage "https://github.com/microsoft/fabrikate"
