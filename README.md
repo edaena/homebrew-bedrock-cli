@@ -1,13 +1,15 @@
 # Homebrew Taps
+This repository contains [Homebrew](https://brew.sh/) formulae for:
+- [bedrock-cli](https://github.com/microsoft/bedrock-cli)
+- [fabrikate](https://github.com/microsoft/fabrikate)
+
 Tap to the formula repository:
 ```
 $ brew tap edaena/core
 ```
 
 ## Install Bedrock CLI
-[bedrock-cli](https://github.com/microsoft/bedrock-cli) tap
 
-To install:
 ```
 $ brew install edaena/core/bedrock-cli
 ```
@@ -24,9 +26,7 @@ $ bedrock
 ```
 
 ## Install Fabrikate
-[Fabrikate](https://github.com/microsoft/fabrikate) tap
 
-To install:
 ```
 $ brew install edaena/core/fabrikate
 ```
