@@ -13,10 +13,9 @@ class Fabrikate < Formula
     end
   
     test do
-      # Run the test with `brew test fabrikate`. Options passed
+      # Run the test with `brew test fabrikate`.
       system "#{bin}/fab", "find", "prometheus"
       find_output = shell_output("#{bin}/fab find prometheus")
       assert_match "fabrikate-prometheus-grafana", find_output
     end
   end
-  
