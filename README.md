@@ -34,8 +34,6 @@ Test the formula:
 ```
 $ brew test edaena/core/fabrikate
 ```
-This verifies functionality by running the `fab find prometheus` command.
-
 
 Run `fabrikate`:
 ```
