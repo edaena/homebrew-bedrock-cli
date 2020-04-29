@@ -14,13 +14,12 @@ $ brew tap edaena/core
 $ brew install edaena/core/bedrock-cli
 ```
 
-To test:
+Test the formula:
 ```
 $ brew test edaena/core/bedrock-cli
 ```
-This verifies functionality by running the `bedrock project init` command.
 
-To run:
+Run `bedrock-cli`:
 ```
 $ bedrock
 ```
@@ -31,14 +30,14 @@ $ bedrock
 $ brew install edaena/core/fabrikate
 ```
 
-To test:
+Test the formula:
 ```
 $ brew test edaena/core/fabrikate
 ```
 This verifies functionality by running the `fab find prometheus` command.
 
 
-To run:
+Run `fabrikate`:
 ```
 $ fab
 ```
