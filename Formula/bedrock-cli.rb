@@ -2,7 +2,7 @@ class BedrockCli < Formula
     desc "The CLI for Bedrock"
     homepage "https://microsoft.github.io/bedrock-cli/commands/"
     url "https://github.com/edaena/bedrock-cli/releases/download/v0.6.6/dist.tar.gz", :using => :curl
-    sha256 "9a95131b28276cabd6cc70dde310d63f806d26d93308e29bd608562cfaf823a0"
+    sha256 "56ee299731f310e58dfa24423f8638fe899dbcda74ca6195435c34799a54824c"
   
     depends_on "terraform"
     depends_on "helm" => "2.16.3"
